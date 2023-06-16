@@ -1,0 +1,62 @@
+:root {
+    --bg-color: #87cbcb;
+    --tittle-letter: #005f6a;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+
+    height: 300px;
+    width: 300px;
+    border-radius: 20%;
+    border: solid black;
+    margin: 0;
+    padding: 0;
+}
+
+#tittle {
+    font-family: 'Press Start 2P', 'consolas';
+    color: var(--tittle-letter);
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    top: 60%;
+    left: 50%;
+    text-align: center;
+    position: absolute;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+#recipe {
+    font-family: Tahoma, sans-serif;
+    text-align: center;
+    position: relative;
+   padding-top: 20px;
+   padding-bottom: 0;
+}
+
+html {
+    background-color: var(--bg-color);
+}
+
+
+#mainInput{
+    position: relative;
+   margin: 10% auto;
+   display: block;
+}
+.main-b {
+   
+    background-color: #295e64;
+    font-style: italic;
+    color: blanchedalmond;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    
+
+}
